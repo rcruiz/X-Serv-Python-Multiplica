@@ -1,4 +1,4 @@
-#!-/usr/bin/python3
+#!/usr/bin/python3
 
 for i in range(1, 11):
     Titulo = "Tabla del " + str(i)
