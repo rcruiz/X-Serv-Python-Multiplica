@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
-for i in range(1, 11):
-    Titulo = "Tabla del " + str(i)
-    print(Titulo + '\n' + '-' * len(Titulo))
-    for j in range(1, 11):
-        print(str(i) + ' por ' + str(j) + ' es ' + str(i*j))
+print('Tablas de multiplicar')
+for num1 in range(1,11):
+    print('Tabla del '+ str(num1))
+    for num2 in range(1,11):
+        print(num1,'*',num2,'=',num1*num2)
